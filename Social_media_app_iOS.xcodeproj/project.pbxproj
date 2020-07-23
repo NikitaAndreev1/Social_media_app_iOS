@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2003C3EC24C80B10008A0D2F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003C3EB24C80B10008A0D2F /* TabBarController.swift */; };
+		204D98EC24C6C28700C5D5EE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204D98EB24C6C28700C5D5EE /* TableViewController.swift */; };
+		2094DC5924C9588F0026A97B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2094DC5824C9588F0026A97B /* Default-568h@2x.png */; };
 		20BE1C2524BEC8A700675896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE1C2424BEC8A700675896 /* AppDelegate.swift */; };
-		20BE1C2724BEC8A700675896 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE1C2624BEC8A700675896 /* SceneDelegate.swift */; };
 		20BE1C2924BEC8A700675896 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE1C2824BEC8A700675896 /* ViewController.swift */; };
 		20BE1C2C24BEC8A700675896 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BE1C2A24BEC8A700675896 /* Main.storyboard */; };
 		20BE1C2F24BEC8A700675896 /* Lesson_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20BE1C2D24BEC8A700675896 /* Lesson_1.xcdatamodeld */; };
@@ -17,9 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		20BE1C2124BEC8A700675896 /* Lesson_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2003C3EB24C80B10008A0D2F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		204D98EB24C6C28700C5D5EE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2094DC5824C9588F0026A97B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		20BE1C2124BEC8A700675896 /* Social_media_app_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Social_media_app_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20BE1C2424BEC8A700675896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20BE1C2624BEC8A700675896 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		20BE1C2824BEC8A700675896 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20BE1C2B24BEC8A700675896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20BE1C2E24BEC8A700675896 /* Lesson_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lesson_1.xcdatamodel; sourceTree = "<group>"; };
@@ -42,7 +46,8 @@
 		20BE1C1824BEC8A700675896 = {
 			isa = PBXGroup;
 			children = (
-				20BE1C2324BEC8A700675896 /* Lesson_1 */,
+				2094DC5824C9588F0026A97B /* Default-568h@2x.png */,
+				20BE1C2324BEC8A700675896 /* Social_media_app_iOS */,
 				20BE1C2224BEC8A700675896 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,24 +55,25 @@
 		20BE1C2224BEC8A700675896 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20BE1C2124BEC8A700675896 /* Lesson_1.app */,
+				20BE1C2124BEC8A700675896 /* Social_media_app_iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20BE1C2324BEC8A700675896 /* Lesson_1 */ = {
+		20BE1C2324BEC8A700675896 /* Social_media_app_iOS */ = {
 			isa = PBXGroup;
 			children = (
 				20BE1C2424BEC8A700675896 /* AppDelegate.swift */,
-				20BE1C2624BEC8A700675896 /* SceneDelegate.swift */,
 				20BE1C2824BEC8A700675896 /* ViewController.swift */,
+				204D98EB24C6C28700C5D5EE /* TableViewController.swift */,
 				20BE1C2A24BEC8A700675896 /* Main.storyboard */,
+				2003C3EB24C80B10008A0D2F /* TabBarController.swift */,
 				20BE1C3024BEC8B000675896 /* Assets.xcassets */,
 				20BE1C3224BEC8B000675896 /* LaunchScreen.storyboard */,
 				20BE1C3524BEC8B000675896 /* Info.plist */,
 				20BE1C2D24BEC8A700675896 /* Lesson_1.xcdatamodeld */,
 			);
-			path = Lesson_1;
+			path = Social_media_app_iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,7 +93,7 @@
 			);
 			name = Lesson_1;
 			productName = Lesson_1;
-			productReference = 20BE1C2124BEC8A700675896 /* Lesson_1.app */;
+			productReference = 20BE1C2124BEC8A700675896 /* Social_media_app_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 20BE1C1C24BEC8A700675896 /* Build configuration list for PBXProject "Lesson_1" */;
+			buildConfigurationList = 20BE1C1C24BEC8A700675896 /* Build configuration list for PBXProject "Social_media_app_iOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20BE1C3424BEC8B000675896 /* LaunchScreen.storyboard in Resources */,
+				2094DC5924C9588F0026A97B /* Default-568h@2x.png in Resources */,
 				20BE1C3124BEC8B000675896 /* Assets.xcassets in Resources */,
 				20BE1C2C24BEC8A700675896 /* Main.storyboard in Resources */,
 			);
@@ -144,7 +151,8 @@
 				20BE1C2924BEC8A700675896 /* ViewController.swift in Sources */,
 				20BE1C2F24BEC8A700675896 /* Lesson_1.xcdatamodeld in Sources */,
 				20BE1C2524BEC8A700675896 /* AppDelegate.swift in Sources */,
-				20BE1C2724BEC8A700675896 /* SceneDelegate.swift in Sources */,
+				2003C3EC24C80B10008A0D2F /* TabBarController.swift in Sources */,
+				204D98EC24C6C28700C5D5EE /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,13 +298,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BYNN9SDNH4;
-				INFOPLIST_FILE = Lesson_1/Info.plist;
+				INFOPLIST_FILE = Social_media_app_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mp.Lesson-1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mp.Social_media_app_iOS;
+				PRODUCT_NAME = Social_media_app_iOS;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,13 +317,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BYNN9SDNH4;
-				INFOPLIST_FILE = Lesson_1/Info.plist;
+				INFOPLIST_FILE = Social_media_app_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mp.Lesson-1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mp.Social_media_app_iOS;
+				PRODUCT_NAME = Social_media_app_iOS;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20BE1C1C24BEC8A700675896 /* Build configuration list for PBXProject "Lesson_1" */ = {
+		20BE1C1C24BEC8A700675896 /* Build configuration list for PBXProject "Social_media_app_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20BE1C3624BEC8B000675896 /* Debug */,
