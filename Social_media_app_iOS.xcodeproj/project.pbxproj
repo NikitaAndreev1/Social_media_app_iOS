@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2003C3EC24C80B10008A0D2F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003C3EB24C80B10008A0D2F /* TabBarController.swift */; };
+		2038A63224D7E62200419828 /* AllFriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2038A63124D7E62200419828 /* AllFriendsController.swift */; };
 		204D98EC24C6C28700C5D5EE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204D98EB24C6C28700C5D5EE /* TableViewController.swift */; };
 		2094DC5924C9588F0026A97B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2094DC5824C9588F0026A97B /* Default-568h@2x.png */; };
 		20BE1C2524BEC8A700675896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE1C2424BEC8A700675896 /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		2003C3EB24C80B10008A0D2F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		2038A63124D7E62200419828 /* AllFriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFriendsController.swift; sourceTree = "<group>"; };
 		204D98EB24C6C28700C5D5EE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		2094DC5824C9588F0026A97B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		20BE1C2124BEC8A700675896 /* Social_media_app_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Social_media_app_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +68,7 @@
 				20BE1C2424BEC8A700675896 /* AppDelegate.swift */,
 				20BE1C2824BEC8A700675896 /* ViewController.swift */,
 				204D98EB24C6C28700C5D5EE /* TableViewController.swift */,
+				2038A63124D7E62200419828 /* AllFriendsController.swift */,
 				20BE1C2A24BEC8A700675896 /* Main.storyboard */,
 				2003C3EB24C80B10008A0D2F /* TabBarController.swift */,
 				20BE1C3024BEC8B000675896 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20BE1C2924BEC8A700675896 /* ViewController.swift in Sources */,
+				2038A63224D7E62200419828 /* AllFriendsController.swift in Sources */,
 				20BE1C2F24BEC8A700675896 /* Lesson_1.xcdatamodeld in Sources */,
 				20BE1C2524BEC8A700675896 /* AppDelegate.swift in Sources */,
 				2003C3EC24C80B10008A0D2F /* TabBarController.swift in Sources */,
