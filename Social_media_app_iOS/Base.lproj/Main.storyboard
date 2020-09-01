@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -141,7 +141,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="irish-actor-pierce-brosnan-as-james-bond-in-a-publicity-news-photo-138084872-1551742467" translatesAutoresizingMaskIntoConstraints="NO" id="63X-1r-bay">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="James" translatesAutoresizingMaskIntoConstraints="NO" id="63X-1r-bay">
                                             <rect key="frame" x="0.0" y="12" width="98" height="67"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
@@ -155,6 +155,8 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="nameLabel" destination="rkN-SB-LKb" id="nD4-G4-oU4"/>
+                                    <outlet property="photoImageView" destination="63X-1r-bay" id="6RR-5A-NAc"/>
                                     <segue destination="OQZ-lI-LnK" kind="show" id="iYD-EH-q2k"/>
                                 </connections>
                             </tableViewCell>
@@ -165,6 +167,10 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="hS2-2w-rFW"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="rkN-SB-LKb" id="hMH-RB-HLu"/>
+                        <outlet property="photoImageView" destination="63X-1r-bay" id="EYy-6Y-iIN"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yp3-qf-aMX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -292,6 +298,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="irish-actor-pierce-brosnan-as-james-bond-in-a-publicity-news-photo-138084872-1551742467" width="480" height="485"/>
+        <image name="James" width="480" height="485"/>
     </resources>
 </document>

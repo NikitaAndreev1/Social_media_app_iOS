@@ -10,12 +10,14 @@ import UIKit
 
 class AllFriendsController: UITableViewController {
 
-    var friends = [
-    "James",
-    "Rick",
-    "David",
-    "Nick",
-    "Anny"]
+    
+    
+    var friends = [Friends]()
+//    "James",
+//    "Rick",
+//    "David",
+//    "Nick",
+//    "Anny"]
         
 
     
