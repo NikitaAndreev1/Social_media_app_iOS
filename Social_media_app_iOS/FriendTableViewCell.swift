@@ -1,18 +1,20 @@
 //
-//  FriendsTableViewCell.swift
+//  FriendTableViewCell.swift
 //  Lesson_1
 //
-//  Created by Nicks on 10.08.2020.
+//  Created by Nikita on 16.09.2020.
 //  Copyright © 2020 Nicks. All rights reserved.
 //
 
 import UIKit
 
-class FriendsTableViewCell: UITableViewCell {
+class FriendTableViewCell: UITableViewCell {
 
-    
+   //MARK: Properties
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
+    
+    
     
     
     override func awakeFromNib() {

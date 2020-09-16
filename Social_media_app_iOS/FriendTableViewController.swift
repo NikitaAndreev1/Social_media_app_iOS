@@ -1,31 +1,32 @@
 //
-//  AllFriendsController.swift
+//  FriendTableViewController.swift
 //  Lesson_1
 //
-//  Created by Nicks on 03.08.2020.
+//  Created by Nikita on 16.09.2020.
 //  Copyright © 2020 Nicks. All rights reserved.
 //
 
 import UIKit
 
-class AllFriendsController: UITableViewController {
+class FriendTableViewController: UITableViewController {
 
     
+//MARK: Properties
     
-    var friends = [Friends]()
-//    "James",
-//    "Rick",
-//    "David",
-//    "Nick",
-//    "Anny"]
-        
-
+    var friends = [Friend]()
+    
+    
+    
     
     
 //    override func viewDidLoad() {
 //        super.viewDidLoad()
-//
-//      
+
+        // Uncomment the following line to preserve selection between presentations
+        // self.clearsSelectionOnViewWillAppear = false
+
+        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+        // self.navigationItem.rightBarButtonItem = self.editButtonItem
 //    }
 //
 //    // MARK: - Table view data source
@@ -39,13 +40,7 @@ class AllFriendsController: UITableViewController {
 //        // #warning Incomplete implementation, return the number of rows
 //        return 0
 //    }
-//
-//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//           let cell = tableView.dequeueReusableCell(withIdentifier: "FriendsCell", for: indexPath) as! FriendsCell
-//           cell.cityLabel.text = cities[indexPath.row]
-//           return cell
-//       }
-    
+
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
