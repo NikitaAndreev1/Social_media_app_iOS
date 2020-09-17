@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2003C3EC24C80B10008A0D2F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003C3EB24C80B10008A0D2F /* TabBarController.swift */; };
+		203EB888251336D5006247FD /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EB887251336D5006247FD /* Friend.swift */; };
 		204D98EC24C6C28700C5D5EE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204D98EB24C6C28700C5D5EE /* TableViewController.swift */; };
 		206B29C12511F34A00E7735A /* FriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206B29C02511F34A00E7735A /* FriendTableViewController.swift */; };
 		2094DC5924C9588F0026A97B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2094DC5824C9588F0026A97B /* Default-568h@2x.png */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		2003C3EB24C80B10008A0D2F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		203EB887251336D5006247FD /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		204D98EB24C6C28700C5D5EE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		206B29C02511F34A00E7735A /* FriendTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewController.swift; sourceTree = "<group>"; };
 		2094DC5824C9588F0026A97B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				20BE1C2824BEC8A700675896 /* ViewController.swift */,
 				204D98EB24C6C28700C5D5EE /* TableViewController.swift */,
 				206B29C02511F34A00E7735A /* FriendTableViewController.swift */,
+				203EB887251336D5006247FD /* Friend.swift */,
 				20BE1C2A24BEC8A700675896 /* Main.storyboard */,
 				2003C3EB24C80B10008A0D2F /* TabBarController.swift */,
 				20A316312511DD0600B26209 /* FriendTableViewCell.swift */,
@@ -161,6 +164,7 @@
 				2003C3EC24C80B10008A0D2F /* TabBarController.swift in Sources */,
 				204D98EC24C6C28700C5D5EE /* TableViewController.swift in Sources */,
 				20A316322511DD0600B26209 /* FriendTableViewCell.swift in Sources */,
+				203EB888251336D5006247FD /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

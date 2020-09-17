@@ -15,19 +15,83 @@ class FriendTableViewController: UITableViewController {
     
     var friends = [Friend]()
     
-    
-    
-    
-    
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
+    override func viewDidLoad() {
+           super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+        // Load the sample data.
+        loadSampleFriends()
+        
+    }
+    
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
-//    }
+    //MARK: - Table view data source
+
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return friends.count
+    }
+
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        // Table view cells are reused and should be dequeued using a cell identifier.
+        let cellIdentifier = "FriendTableViewCell"
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? FriendTableViewCell  else {
+            fatalError("The dequeued cell is not an instance of FriendTableViewCell.")
+        }
+        
+        // Fetches the appropriate meal for the data source layout.
+        let friend = friends[indexPath.row]
+        
+        cell.nameLabel.text = friend.name
+        cell.photoImageView.image = friend.photo
+        
+        return cell
+    }
+    
+    
+    
+    //MARK: Private Methods
+    
+    private func loadSampleFriends() {
+        
+        let photo1 = UIImage(named: "James")
+        let photo2 = UIImage(named: "Leo")
+        let photo3 = UIImage(named: "Megan")
+        let photo4 = UIImage(named: "Monica")
+        
+
+        guard let James = Friend(name: "James", photo: photo1) else {
+            fatalError("Unable to instantiate the friend - James")
+        }
+
+        guard let Leo = Friend(name: "Leo", photo: photo2) else {
+            fatalError("Unable to instantiate the friend - Leo")
+        }
+
+        guard let Megan = Friend(name: "Megan", photo: photo3) else {
+            fatalError("Unable to instantiate the friend - Megan")
+        }
+        
+        guard let Monica = Friend(name: "Monica", photo: photo4) else {
+                   fatalError("Unable to instantiate the friend - Monica")
+               }
+
+        friends += [James, Leo, Megan, Monica]
+    }
+    
+    
+ 
+    
 //
 //    // MARK: - Table view data source
 //
