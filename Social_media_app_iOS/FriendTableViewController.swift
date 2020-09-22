@@ -49,7 +49,7 @@ class FriendTableViewController: UITableViewController {
             fatalError("The dequeued cell is not an instance of FriendTableViewCell.")
         }
         
-        // Fetches the appropriate meal for the data source layout.
+        // Fetches the appropriate friend for the data source layout.
         let friend = friends[indexPath.row]
         
         cell.nameLabel.text = friend.name

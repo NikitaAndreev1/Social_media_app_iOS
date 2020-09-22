@@ -19,6 +19,7 @@
 		20BE1C2F24BEC8A700675896 /* Lesson_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20BE1C2D24BEC8A700675896 /* Lesson_1.xcdatamodeld */; };
 		20BE1C3124BEC8B000675896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BE1C3024BEC8B000675896 /* Assets.xcassets */; };
 		20BE1C3424BEC8B000675896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BE1C3224BEC8B000675896 /* LaunchScreen.storyboard */; };
+		20F560702519C7D2007C7706 /* FriendCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5606F2519C7D2007C7706 /* FriendCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		20BE1C3024BEC8B000675896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20BE1C3324BEC8B000675896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20BE1C3524BEC8B000675896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F5606F2519C7D2007C7706 /* FriendCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				20BE1C2824BEC8A700675896 /* ViewController.swift */,
 				204D98EB24C6C28700C5D5EE /* TableViewController.swift */,
 				206B29C02511F34A00E7735A /* FriendTableViewController.swift */,
+				20F5606F2519C7D2007C7706 /* FriendCollectionViewController.swift */,
 				203EB887251336D5006247FD /* Friend.swift */,
 				20BE1C2A24BEC8A700675896 /* Main.storyboard */,
 				2003C3EB24C80B10008A0D2F /* TabBarController.swift */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20BE1C2924BEC8A700675896 /* ViewController.swift in Sources */,
+				20F560702519C7D2007C7706 /* FriendCollectionViewController.swift in Sources */,
 				20BE1C2F24BEC8A700675896 /* Lesson_1.xcdatamodeld in Sources */,
 				20BE1C2524BEC8A700675896 /* AppDelegate.swift in Sources */,
 				206B29C12511F34A00E7735A /* FriendTableViewController.swift in Sources */,
