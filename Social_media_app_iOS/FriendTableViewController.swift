@@ -10,7 +10,7 @@ import UIKit
 
 class FriendTableViewController: UITableViewController {
 
-    
+        
 //MARK: Properties
     
     var friends = [Friend]()
@@ -30,6 +30,8 @@ class FriendTableViewController: UITableViewController {
     }
 
     //MARK: - Table view data source
+    
+    
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -39,6 +41,22 @@ class FriendTableViewController: UITableViewController {
         return friends.count
     }
 
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) { //showing the title on photos page by which cell name was picked
+        
+        if let FriendCollectionViewController = segue.destination as? FriendCollectionViewController { // checking transition to the right controller
+            
+            if let indexPath = tableView.indexPathForSelectedRow { // checking picked line for the transition
+                let friend = friends[indexPath.row]
+                FriendCollectionViewController.friend = friend
+                
+                
+            }
+            
+        }
+        
+    }
+    
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         

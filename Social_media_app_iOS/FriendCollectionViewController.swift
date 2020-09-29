@@ -14,26 +14,29 @@ class FriendCollectionViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+               title = friend.name
+        
 }
 
     // MARK: UICollectionViewDataSource
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1//photos.count
+        return 1 //photos.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return friend.photos.count
+        return 5
         
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "friendCell", for: indexPath) as! FriendsCell
-    
-        let photo = friend.photos[indexPath.row]
-        cell.photo.image = photo
-        
+
+        let fff = friends[0].photos[indexPath.row]
+        cell.photo.image = fff
+
         return cell
     }
 
