@@ -37,7 +37,7 @@ class FriendCollectionViewController: UICollectionViewController {
         let fff = friends[0].photos[indexPath.row] //change the name of the constant 
         cell.photo.image = fff
 
-        return cell //!
+        return cell //
     }
 
     
