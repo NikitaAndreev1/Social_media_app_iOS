@@ -34,7 +34,7 @@ class FriendCollectionViewController: UICollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "friendCell", for: indexPath) as! FriendsCell
 
-        let fff = friends[0].photos[indexPath.row] //change the name of the constant 
+        let fff = friends[0].photos[indexPath.row] //change the name of the constant
         cell.photo.image = fff
 
         return cell //
